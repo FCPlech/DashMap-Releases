@@ -21,6 +21,10 @@ cooks the phone), DashMap renders the map off-screen, hardware-encodes it
 to H.264 and streams it over the bike's Wi-Fi, so the phone stays cool and
 sips battery for the whole ride.
 
+<p align="center">
+  <img src="branding/image.png" alt="Tripper dash showing DashMap navigation" width="320" />
+</p>
+
 - **Navigation**: share a destination from Google Maps, preview the road
   route with distance and arrival time, send it to the dash. Turn-by-turn
   with automatic off-route rerouting: online routing first, offline
