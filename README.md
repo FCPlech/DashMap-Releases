@@ -25,16 +25,15 @@ phone stays cool and sips battery for the whole ride.
   rerouting, online routing first and an offline package when there is no
   signal. Online place search, planned multi-stop trips and imported GPX
   tracks included.
-- **Offline maps**: map imagery on the phone plus full offline packages
-  (Valhalla routing tiles and Nearby streets database), downloadable
-  straight from the app, no computer needed.
+- **Offline maps**: full packages (Valhalla routing tiles and Nearby
+  streets database) downloadable straight from the app, no computer
+  needed. The visual map background streams online; Minimalist mode rides
+  on the streets database with no tiles at all.
 - **Dash control**: joystick zoom, saved routes and GPX lists on the dash,
   a media menu (next, seek, play/pause, artwork), and incoming calls with
   answer/reject from the dash.
 - **Voice guidance**: off, chime-before-turns, or full spoken turn-by-turn,
   on-device, in PT-BR and English.
-- **Garage**: maintenance log with service intervals and due reminders,
-  plus a fuel diary with mileage and costs.
 - **Rides**: every finished navigation saved automatically with distance,
   duration, speeds and a track map.
 - **Private by design**: no account, no server. Everything lives on the
