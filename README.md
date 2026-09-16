@@ -61,8 +61,8 @@ Every release carries up to three files:
 Same licenses and attributions the app carries under Settings → Credits,
 license first:
 
-- **NorthStar** — © 2026 Aditya Dasika · Apache License 2.0
-- **OpenStreetMap contributors** — © OpenStreetMap contributors · ODbL, attribution required
+- **NorthStar**: © 2026 Aditya Dasika · Apache License 2.0
+- **OpenStreetMap contributors**: © OpenStreetMap contributors · ODbL, attribution required
 - **OpenFreeMap** — map tiles · OSM data © contributors (ODbL)
 - **MapLibre** — map rendering · BSD-2-Clause
 - **Valhalla** — routing engine · MIT
@@ -71,7 +71,7 @@ license first:
 - **Nominatim** — place search · OSMF usage policy
 - **Open-Meteo** — weather data · free API, see its terms (data CC-BY 4.0)
 - **Geofabrik** — data extracts · OSM data (ODbL)
-- **better-dash (Apache-2.0)** — dash protocol reference; implementation independent
+- **better-dash (Apache-2.0)**: dash protocol reference; implementation independent
 
 The routing tiles and street databases in these releases derive from
 OpenStreetMap data, so the ODbL credit above travels with them. See
