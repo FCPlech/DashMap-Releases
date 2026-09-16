@@ -61,27 +61,25 @@ the Tripper dash.
 
 ## Using the dash joystick
 
-The handlebar joystick has two modes. It starts in HOME mode every time
-the bike turns on; ENTER enters Navigation/Media mode, the HOME button
-goes back.
+The handlebar joystick starts in HOME mode every time the bike turns on.
+HOME mode has only three actions:
 
-HOME mode:
-
-- **UP**: asks on the dash whether to cancel the navigation; confirm there
-  to stop.
+- **UP**: cancel the navigation (the dash asks, confirm there to stop).
 - **RIGHT / LEFT**: zoom the map in / out.
-- **DOWN**: nothing.
-- **UP + UP**: opens the saved-routes list on the dash (RIGHT confirms and
-  starts navigating, LEFT goes back).
-- **DOWN + DOWN**: switches the map between full and minimalist.
-- **LEFT + LEFT**: opens the app's media menu on the dash.
+- **ENTER**: enters Navigation/Media mode.
 
-Inside the media menu: LEFT restarts the track, RIGHT plays the next one,
-ENTER toggles play/pause, UP returns to the map.
+Inside Navigation/Media mode:
 
-Calls (Navigation/Media mode): when the call notice appears on the dash,
-**UP** answers the ringing call, **DOWN** declines it, and during a call
-**DOWN** ends it.
+- **UP + UP**: recent routes list on the dash (RIGHT confirms and starts
+  navigating, LEFT goes back).
+- **DOWN + DOWN**: switches the map style between full and minimalist.
+- **LEFT + LEFT**: the app's media menu on the dash (LEFT restarts the
+  track, RIGHT plays the next one, ENTER toggles play/pause, UP returns
+  to the map).
+- **HOME button**: back to HOME mode.
+
+Calls: when the call notice appears on the dash, **UP** answers the
+ringing call, **DOWN** declines it, and during a call **DOWN** ends it.
 
 ## The binaries
 
