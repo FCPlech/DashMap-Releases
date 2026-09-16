@@ -6,7 +6,7 @@
 
 Public download point for **DashMap** releases. This repo contains **only
 binaries** (see below): no source code, no build tooling. The app's own
-in-app updater and Obtainium track this repo.
+in-app updater tracks this repo.
 
 > DashMap itself is a closed-source, independent project. **Not affiliated
 > with, endorsed by, or supported by Royal Enfield.** "Royal Enfield",
