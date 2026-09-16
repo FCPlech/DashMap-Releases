@@ -1,0 +1,5 @@
+# Release assets live on GitHub Releases, never in git.
+*.apk
+*.exe
+DashMapOfflineMaps-*
+__pycache__/
