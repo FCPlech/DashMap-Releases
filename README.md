@@ -47,15 +47,15 @@ the Tripper dash.
 
 Every release carries up to three files:
 
-- **`DashMap.apk`** — the app itself. Sideload it (allow "install unknown
+- **`DashMap.apk`**: the app itself. Sideload it (allow "install unknown
   apps" when asked). Signed with the same key every time, so updates
   install in place and keep your data. Android may show an "unverified app"
   warning: expected for a self-managed community key.
-- **`DashMapOfflineMaps-linux`** — the offline-maps desktop tool for
+- **`DashMapOfflineMaps-linux`**: the offline-maps desktop tool for
   Linux. Prepares routing + streets packages on a computer and sends them
   to the phone over USB or Wi-Fi. Optional: the app also downloads
   ready-made packages by itself.
-- **`DashMapOfflineMaps-windows.exe`** — the same desktop tool for Windows.
+- **`DashMapOfflineMaps-windows.exe`**: the same desktop tool for Windows.
 
 ## Credits
 
