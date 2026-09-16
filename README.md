@@ -14,24 +14,37 @@ in-app updater tracks this repo.
 
 ## What DashMap is
 
-Low-power motorcycle navigation for the Royal Enfield Himalayan 450,
-projected onto the bike's round Tripper TFT dash with the phone screen off.
-Instead of mirroring the display, DashMap renders the map off-screen,
-hardware-encodes it to H.264 and streams it over the bike's Wi-Fi, so the
-phone stays cool and sips battery for the whole ride.
+Turn-by-turn motorcycle navigation for the Royal Enfield Himalayan 450,
+drawn on the bike's round Tripper TFT dash while the phone screen stays
+off. Instead of mirroring the display (which keeps the screen lit and
+cooks the phone), DashMap renders the map off-screen, hardware-encodes it
+to H.264 and streams it over the bike's Wi-Fi, so the phone stays cool and
+sips battery for the whole ride.
 
 - **Navigation**: share a destination from Google Maps, preview the road
-  route, send it to the dash. Turn-by-turn with automatic off-route
-  rerouting, online routing first and an offline package when there is no
-  signal. Online place search, planned multi-stop trips and imported GPX
-  tracks included.
+  route with distance and arrival time, send it to the dash. Turn-by-turn
+  with automatic off-route rerouting: online routing first, offline
+  package when there is no signal. Online place search, planned
+  multi-stop trips and imported GPX tracks included.
 - **Offline maps**: full packages (Valhalla routing tiles and Nearby
   streets database) downloadable straight from the app, no computer
   needed. The visual map background streams online; Minimalist mode rides
   on the streets database with no tiles at all.
-- **Dash control**: joystick zoom, saved routes and GPX lists on the dash,
-  a media menu (next, seek, play/pause, artwork), and incoming calls with
-  answer/reject from the dash.
+- **Automatic dash connection**: the app discovers any `RE_*` dash,
+  remembers yours and reconnects on its own, with an optional
+  auto-connect that links when the bike is near.
+- **Personalization**: day/night dash themes (fixed or automatic by clock
+  or sunset/sunrise), full PT-BR and English localization, widget
+  toggles, colors, sizes and arrival behavior.
+- **Minimalist map**: a stripped night-friendly view with just the route,
+  nearby streets and ETA, no map tiles. Two quick DOWN clicks toggle it
+  from the handlebar.
+- **Road awareness**: posted speed limits with a speed-limit sign widget,
+  speed-camera alerts with an early warning, fuel-pump markers on the map
+  and a weather forecast glyph.
+- **Media and calls**: a dash media menu (restart, next track,
+  play/pause) with track info, and incoming calls shown on the dash with
+  answer/reject from the joystick, audio through the helmet.
 - **Voice guidance**: off, chime-before-turns, or full spoken turn-by-turn,
   on-device, in PT-BR and English.
 - **Rides**: every finished navigation saved automatically with distance,
@@ -41,6 +54,30 @@ phone stays cool and sips battery for the whole ride.
 
 Requires a 64-bit ARM Android phone on Android 10+ and a Himalayan 450 with
 the Tripper dash.
+
+## Using the dash joystick
+
+The handlebar joystick has two modes. It starts in HOME mode every time
+the bike turns on; ENTER enters Navigation/Media mode, the HOME button
+goes back.
+
+HOME mode:
+
+- **UP**: asks on the dash whether to cancel the navigation; confirm there
+  to stop.
+- **RIGHT / LEFT**: zoom the map in / out.
+- **DOWN**: nothing.
+- **UP + UP**: opens the saved-routes list on the dash (RIGHT confirms and
+  starts navigating, LEFT goes back).
+- **DOWN + DOWN**: switches the map between full and minimalist.
+- **LEFT + LEFT**: opens the app's media menu on the dash.
+
+Inside the media menu: LEFT restarts the track, RIGHT plays the next one,
+ENTER toggles play/pause, UP returns to the map.
+
+Calls (Navigation/Media mode): when the call notice appears on the dash,
+**UP** answers the ringing call, **DOWN** declines it, and during a call
+**DOWN** ends it.
 
 ## The binaries
 
