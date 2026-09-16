@@ -1,14 +1,14 @@
 # Mirroring a release to the public
 
 Releases are mirrored by hand, one tag at a time, with your own `gh auth`
-(no tokens, no secrets, no automation):
+(no tokens, no secrets, no automation). The script lives in the private
+DashMap checkout (`tools/mirror_release.py`) and runs from anywhere:
 
 ```bash
-# from this repo root (or anywhere: the script takes --private/--public):
-./scripts/mirror_release.py v1.12.0
+~/DashMap/tools/mirror_release.py v1.12.0
 
 # preview only, then run for real:
-./scripts/mirror_release.py v1.12.0 --dry-run
+~/DashMap/tools/mirror_release.py v1.12.0 --dry-run
 ```
 
 For the given tag the script reads title/notes/assets from the private

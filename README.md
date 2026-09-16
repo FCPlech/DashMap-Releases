@@ -12,9 +12,10 @@ updater and Obtainium track this repo.
 
 - **GitHub Releases**: versioned `DashMap.apk` + `DashMapOfflineMaps-*`
   binaries, mirrored from the private development repo on purpose, whenever
-  the author runs `./scripts/mirror_release.py <tag>`.
-- **This git history**: only this README, `docs/` and `scripts/`. No app
-  source, no build tooling internals.
+  the author runs `tools/mirror_release.py <tag>` from the private DashMap
+  checkout, where the script lives.
+- **This git history**: only this README and `docs/`. No app source, no
+  scripts, no build tooling internals.
 
 ## Install / update
 
